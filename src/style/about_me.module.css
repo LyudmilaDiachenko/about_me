@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+.text_container{
+    padding-left: 50px;
+}
+.img_container{
+    padding-right: 50px;
+}
+.photo{
+    z-index: 100;
+    width: 400px;
+    border: 2px solid #7d5e3c;
+}
+.text{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+}
+.min_text{
+    font-weight: 500;
+    font-size: 16px;
+}
+.circle{
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    top: 66%;
+    width: 250px;
+}
+.square{
+    position: absolute;
+    top: 44%;
+    right: 32%;
+    width: 200px;
+    height: 200px;
+    rotate: 21deg;
+}
+.triangle{
+    position: absolute;
+    top: -9%;
+    right: 53%;
+    width: 150px;
+    height: 150px;
+    rotate: -30deg;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.square2{
+    position: absolute;
+    top: 37px;
+    right: -23px;
+    width: 150px;
+    height: 150px;
+    rotate: -42deg;
+}
